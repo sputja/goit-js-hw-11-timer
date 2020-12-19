@@ -1,5 +1,29 @@
-button {
-  padding: 20px 40px;
+.timer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  font-size: 24px;
+  font-size: 140px;
+  border-radius: 5px;
+  background-color: rgb(233, 215, 215);
+}
+
+.field {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background: #81d7eb;
+  color: black;
+}
+
+.value {
+  margin-bottom: 80px;
+}
+
+.label {
+  display: block;
+  font-size: 30px;
 }
